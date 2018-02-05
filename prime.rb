@@ -2,5 +2,5 @@
 
 def prime?(int)
   range = (2..int/2).to_a
-  int
+  int > 1 && range.none? {|integer| number % int == 0}
 end
